@@ -1,6 +1,14 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    color: #fff;
+}
+
+#main {
+    background: url("../img/wood.jpg");
+}
+
+#skills {
+    background-image: url("../img/wood.jpg");
 }
 
 a {
@@ -14,12 +22,30 @@ a:hover {
 }
 
 h1,
-h2,
 h3,
+h2,
 h4,
 h5,
 h6 {
     font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    animation: mymove 5s infinite;
+}
+
+#a {
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
 }
 
 .back-to-top {
@@ -29,7 +55,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #149ddd;
+    background: #72621d;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -43,7 +69,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #2eafec;
+    background: #72621d;
     color: #fff;
 }
 
@@ -62,7 +88,7 @@ h6 {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: #000000;
+    background: #72621d;
     overflow-y: auto;
 }
 
@@ -105,7 +131,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #9c8321;
     color: #fff;
     text-decoration: none;
 }
@@ -168,7 +194,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-    color: #149ddd;
+    color: #9c8321;
 }
 
 
@@ -183,7 +209,7 @@ h6 {
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
-    background-color: #149ddd;
+    background-color: #9c8321;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -246,7 +272,7 @@ h6 {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid #9c8321;
 }
 
 @media (min-width: 1024px) {
@@ -286,7 +312,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: #9c8321;
 }
 
 .section-title h2::after {
@@ -295,7 +321,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #149ddd;
+    background: #9c8321;
     bottom: 0;
     left: 0;
 }
@@ -312,7 +338,7 @@ section {
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #173b6c;
+    color: #9c8321;
 }
 
 .about .content ul {
@@ -333,7 +359,7 @@ section {
 .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #149ddd;
+    color: #fff;
     line-height: 0;
 }
 
@@ -360,7 +386,7 @@ section {
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #fff;
 }
 
 .skills .progress .skill .val {
@@ -377,7 +403,7 @@ section {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #149ddd;
+    background-color: #9c8321;
 }
 
 
@@ -390,13 +416,13 @@ section {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #050d18;
+    color: #fff;
 }
 
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #1f5297;
+    border-left: 2px solid #9c8321;
     position: relative;
 }
 
@@ -406,13 +432,13 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
     font-size: 16px;
-    background: #e4edf9;
+    background: #000000;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -440,7 +466,7 @@ section {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #1f5297;
+    border: 2px solid #9c8321;
 }
 
 
@@ -459,10 +485,10 @@ section {
     justify-content: center;
     width: 54px;
     height: 54px;
-    background: #149ddd;
+    background: #9c8321;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #149ddd;
+    border: 1px solid #9c8321;
 }
 
 .services .icon i {
@@ -476,7 +502,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-    color: #149ddd;
+    color: #9c8321;
 }
 
 .services .title {
@@ -487,11 +513,11 @@ section {
 }
 
 .services .title a {
-    color: #343a40;
+    color: #fff;
 }
 
 .services .title a:hover {
-    color: #149ddd;
+    color: #9c8321;
 }
 
 .services .description {
@@ -518,7 +544,7 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: #149ddd;
+    color: #9c8321;
     float: left;
     width: 44px;
     height: 44px;
@@ -542,7 +568,7 @@ section {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #173b6c;
+    color: #9c8321;
 }
 
 .contact .info .email p {
@@ -569,14 +595,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-    background: #149ddd;
+    background: #9c8321;
     color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #149ddd;
+    background: #9c8321;
     color: #fff;
 }
 
@@ -665,7 +691,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #149ddd;
+    background: #9c8321;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -674,7 +700,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #37b3ed;
+    background: #9c8321;
 }
 
 @-webkit-keyframes animate-loading {
