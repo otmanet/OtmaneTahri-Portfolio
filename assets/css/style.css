@@ -41,10 +41,10 @@ h2 {
 
 @keyframes mymove {
     from {
-        left: 0px;
+        left: 300px;
     }
     to {
-        left: 300px;
+        left: 0px;
     }
 }
 
@@ -397,6 +397,7 @@ section {
 .skills .progress-bar-wrap {
     background: #dce8f8;
     height: 10px;
+    border-radius: 1.5rem;
 }
 
 .skills .progress-bar {
@@ -404,6 +405,7 @@ section {
     height: 10px;
     transition: .9s;
     background-color: #9c8321;
+    border-radius: 1.5rem;
 }
 
 
