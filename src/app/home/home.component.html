@@ -1,0 +1,94 @@
+<header class="row">
+    <div class="col-md-4">
+    <nav class="navbar fixed-top navbar-light change">
+       <div class="container d-flex"  >
+        <a class="navbar-brand navbar-brand-white" href="/en" tabindex="1">
+            <img src="assets/logo.png" alt="logo" width="100px" height="90px">
+        </a>
+            <div class="d-flex justify-content-end">
+                <div class="nav-wrapper" role="navigation">
+                    
+                        <ul class="navbar-nav flex-row navbar-secondary justify-content-end">
+                            <li style ="visibility: visible; opacity: 1;">
+                                <a href="#">About</a>
+                            </li>
+                            <li style ="visibility: visible; opacity: 1;">
+                                <a href="#">Services</a>
+                            </li>
+                            <li style ="visibility: visible; opacity: 1;">
+                                <a href="#">Experience </a>
+                            </li>
+
+                            <li style ="visibility: visible; opacity: 1;">
+                                <a href="#">news </a>
+                            </li>
+                            <li style ="visibility: visible; opacity: 1;">
+                                <a href="#"  (click)="onLangueges()" class="dropdown">Languages </a>
+                                <ul  [ngStyle]="{'display': displayLanguges? 'inline': 'none'}" class="listLanguages">
+                                    <li style="visibility: visible; opacity: 1;     list-style-type: none;">
+                                        <a href="#" class="lang" lang="en-au">
+                                            English(UK)
+                                        </a>
+                                    </li>
+                                    <li style="visibility: visible; opacity: 1;     list-style-type: none;"> 
+                                        <a href="#" class="lang" lang="en">
+                                            English(UA)
+                                        </a>
+                                    </li>
+                                    <li style="visibility: visible; opacity: 1;   list-style-type: none;">
+                                        <a href="#" class="lang" lang="zh-hans">
+                                            简体中文
+                                        </a>
+                                        </li>
+                                </ul>
+                            </li>
+                         
+                    
+                            <li>
+                                <!-- <button type="button"  (click)="onLangueges()">
+                                    <i class="fas fa-angle-up"></i>
+                                <ul  [ngStyle]="{'display': displayLanguges? 'inline': 'none'}">
+                                        <li style="visibility: visible; opacity: 1;"> English(AU)</li>
+                                        <li style="visibility: visible; opacity: 1;"> English(UK)</li>
+                                        <li style="visibility: visible; opacity: 1;">简体中文</li>
+                                    </ul>
+
+                                </button> -->
+                                <!-- <div class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="Dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                        <i class="flag-united-kingdom flag m-0"></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="Dropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>English(AU)</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                                        </li>
+                                    </ul>
+                               
+                                </div> -->
+
+                         
+
+                                
+                            </li>
+                        </ul>
+
+                   
+
+                </div>
+
+            </div>
+       </div>
+    </nav>
+    </div>
+</header>
+
+<body style="display: block;">
+
+    <div #rendererContainer></div>
+
+  
+</body>
