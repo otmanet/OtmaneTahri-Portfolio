@@ -1,94 +1,187 @@
-<header class="row">
-    <div class="col-md-4">
-    <nav class="navbar fixed-top navbar-light change">
-       <div class="container d-flex"  >
-        <a class="navbar-brand navbar-brand-white" href="/en" tabindex="1">
-            <img src="assets/logo.png" alt="logo" width="100px" height="90px">
-        </a>
-            <div class="d-flex justify-content-end">
-                <div class="nav-wrapper" role="navigation">
-                    
+<header>
+    <div class="header">
+        <!-- fixed-top -->
+        <nav class="navbar  navbar-light">
+            <div class="container d-flex">
+                <a class="navbar-brand navbar-brand-white" href="/en" tabindex="1">
+                    <img src="assets/logo.png" alt="logo" width="100px" height="90px">
+                </a>
+                <div class="d-flex justify-content-end">
+                    <div class="nav-wrapper" role="navigation">
+
                         <ul class="navbar-nav flex-row navbar-secondary justify-content-end">
-                            <li style ="visibility: visible; opacity: 1;">
-                                <a href="#">About</a>
+                            <li style="visibility: visible; opacity: 1;">
+                                <a href="#">About Us</a>
                             </li>
-                            <li style ="visibility: visible; opacity: 1;">
+                            <li style="visibility: visible; opacity: 1;">
                                 <a href="#">Services</a>
                             </li>
-                            <li style ="visibility: visible; opacity: 1;">
+                            <li style="visibility: visible; opacity: 1;">
                                 <a href="#">Experience </a>
                             </li>
 
-                            <li style ="visibility: visible; opacity: 1;">
+                            <li style="visibility: visible; opacity: 1;">
                                 <a href="#">news </a>
                             </li>
-                            <li style ="visibility: visible; opacity: 1;">
-                                <a href="#"  (click)="onLangueges()" class="dropdown">Languages </a>
-                                <ul  [ngStyle]="{'display': displayLanguges? 'inline': 'none'}" class="listLanguages">
-                                    <li style="visibility: visible; opacity: 1;     list-style-type: none;">
-                                        <a href="#" class="lang" lang="en-au">
-                                            English(UK)
-                                        </a>
-                                    </li>
-                                    <li style="visibility: visible; opacity: 1;     list-style-type: none;"> 
-                                        <a href="#" class="lang" lang="en">
-                                            English(UA)
-                                        </a>
-                                    </li>
-                                    <li style="visibility: visible; opacity: 1;   list-style-type: none;">
-                                        <a href="#" class="lang" lang="zh-hans">
-                                            简体中文
-                                        </a>
-                                        </li>
-                                </ul>
-                            </li>
-                         
-                    
-                            <li>
-                                <!-- <button type="button"  (click)="onLangueges()">
-                                    <i class="fas fa-angle-up"></i>
-                                <ul  [ngStyle]="{'display': displayLanguges? 'inline': 'none'}">
-                                        <li style="visibility: visible; opacity: 1;"> English(AU)</li>
-                                        <li style="visibility: visible; opacity: 1;"> English(UK)</li>
-                                        <li style="visibility: visible; opacity: 1;">简体中文</li>
-                                    </ul>
+                            <li style="visibility: visible; opacity: 1;">
 
-                                </button> -->
-                                <!-- <div class="dropdown">
-                                    <a class="dropdown-toggle" href="#" id="Dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                                        <i class="flag-united-kingdom flag m-0"></i>
-                                    </a>
+                                <a (click)="onLangueges()" id="language">Languages </a>
 
-                                    <ul class="dropdown-menu" aria-labelledby="Dropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>English(AU)</a>
+                                <!--   -->
+                                <div [ngStyle]="{'display': displayLanguges? 'inline': 'none'}" class="listLanguages">
+
+                                    <ul>
+                                        <li style="visibility: visible; opacity: 1;  ">
+                                            <a href="#" class="lang" lang="en-au">
+                                                English(UK)
+                                            </a>
                                         </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                                        <li style="visibility: visible; opacity: 1;  ">
+                                            <a href="#" class="lang" lang="en">
+                                                English(UA)
+                                            </a>
+                                        </li>
+                                        <li style="visibility: visible; opacity: 1;  ">
+                                            <a href="#" class="lang" lang="zh-hans">
+                                                简体中文
+                                            </a>
                                         </li>
                                     </ul>
-                               
-                                </div> -->
+                                </div>
 
-                         
-
-                                
                             </li>
                         </ul>
 
-                   
+                    </div>
 
+                </div>
+            </div>
+        </nav>
+
+        <div class="row header-content" style="display: flex; text-align: center;">
+            <div class="col-md-12">
+                <h2 class="title">Your worldwide defense solution provider</h2>
+                <span class="slogan">Our minimum standards, exceed others maximum</span>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</header>
+
+<body>
+
+    <div class="container mt-5">
+    
+            <h3 class="weareTitle mb-4">Who we are</h3>
+       
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-title mb-0" style="text-align: center;">
+                        <span class="mdi mdi-tie iccons"></span>
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        Over 1500 Employees Worldwide
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-title mb-0" style="text-align: center;">
+                        <span class="mdi mdi-account-circle iccons"></span>
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        Over 200 Employees in Morocco
+                    </div>
                 </div>
 
             </div>
-       </div>
-    </nav>
-    </div>
-</header>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-title mb-0" style="text-align: center;">
+                        <span class="mdi mdi-file-document iccons"></span>
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        Over 590 Awarded Contracts
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-title mb-0" style="text-align: center;">
+                        <span class="mdi mdi-currency-usd iccons"></span>
+                    </div>
+                    <div class="card-body" style="text-align: center;">
+                        Over $82 Million in Revenue Annually
+                    </div>
+                </div>
 
-<body style="display: block;">
+            </div>
+        </div>
+    </div>
+
+    <div #rendererContainer></div>
+</body>
+
+<footer>
+    <div class="footer1">
+        <img src="../../assets/farGroup.png" alt="logo" width="90px" height="60px" style="margin: 30px 10px; ">
+        <div class="markets links">
+            <ul>
+                <li> <strong>Markets</strong> </li>
+                <li><a href="#">Clients </a></li>
+                <li><a href="#"> Partners</a> </li>
+                <li> <a href="#">Services </a></li>
+                <li><a href="#">What We Do</a></li>  
+                <li><a href="#">Experience</a> </li>
+          </ul>
+        </div>
+
+        <div class="abouts links">
+            <ul>
+                <li> <strong>About</strong></li>
+                <li><a href="#">Who We Are </a></li>
+                <li><a href="#">Introduction</a> </li>
+                <li> <a href="#">Values </a></li>
+                <li><a href="#">Leadership </a></li>  
+                <li><a href="#">Headquarters</a> </li>
+          </ul>
+        </div>
+
+        
+        <div class="Languages links">
+            <ul>
+                <li> <strong>Languages</strong> </li>
+                <li> <a href="#" style="margin-bottom:10px;">English </a></li>
+                <li><a href="#" style="margin-bottom:10px;">Spanish </a></li>
+                <li><a href="#" style="margin-bottom:10px;">Arabic</a> </li>
+                <li> <a href="#" style="margin-bottom:10px;">Japanese </a></li>
+                <li><a href="#" style="margin-bottom:10px;">Korean </a></li>  
+           
+          </ul>
+        </div>
+
+        <div class="latest links">
+            <span class="mb-2"><strong>Keep up with the latest of FAR Group </strong> </span> <br> <br>
+            <span  class="mb-2">Email Address*</span>
+            <form  >
+                <input type="Email" placeholder="Email" class="mb-2" class="email"> <br>
+                <input type="SUBMIT" value="Subscripe" class="submit">
+            </form>
+        </div>
+       
+    </div>
+
+</footer>
+
+
+
+<!-- <body style="display: block;">
 
     <div #rendererContainer></div>
 
-  
-</body>
+
+</body> -->

@@ -35,12 +35,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              
-              "node_modules/tween.js/src/Tween.js",
-              "node_modules/three/build/three.js",
-              "node_modules/stats.js/build/stats.min.js",
-              "vendor/VRMLLoader.js",
-              "vendor/OrbitControls.js"
+              "node_modules/three/build/three.js"
           
             ]
           },

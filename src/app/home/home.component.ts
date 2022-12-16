@@ -23,7 +23,6 @@ export class HomeComponent {
   const geometry = new THREE.BoxGeometry(200, 200, 200);
   const material = new THREE.MeshBasicMaterial({color: 0xff0000, wireframe: true});
   this.mesh = new THREE.Mesh(geometry, material);
-
   this.scene.add(this.mesh);
 
  } 
@@ -34,7 +33,7 @@ export class HomeComponent {
   ngAfterViewInit() {
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     this.rendererContainer.nativeElement.appendChild(this.renderer.domElement);
-    this.animate();
+    // this.animate();
 }
 animate() {
   window.requestAnimationFrame(() => this.animate());
