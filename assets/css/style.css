@@ -759,3 +759,35 @@ section {
         transform: rotate(360deg);
     }
 }
+
+#btnDownload {
+    border: 2px solid;
+    border-radius: 1.2rem;
+}
+
+#btnDownload:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+#btnDownload:hover .bxs-file-pdf {
+    color: black;
+}
+
+#tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+#tooltip:hover .tooltiptext {
+    visibility: visible;
+}
