@@ -90,6 +90,7 @@ h2 {
     padding: 0 15px;
     background: rgb(348, 100, 81);
     overflow-y: auto;
+    display: none;
 }
 
 #header .profile img {
@@ -140,9 +141,9 @@ h2 {
     text-decoration: none;
 }
 
-#main {
+/* #main {
     margin-left: 300px;
-}
+} */
 
 @media (max-width: 1199px) {
     #header {
@@ -229,9 +230,9 @@ h2 {
     cursor: pointer;
 }
 
-.mobile-nav-active {
+/* .mobile-nav-active {
     overflow: hidden;
-}
+} */
 
 .mobile-nav-active #header {
     left: 0;
