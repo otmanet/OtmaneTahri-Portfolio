@@ -35,15 +35,17 @@
 
 
 
+
 <body>
     <div class="overlay">
         <div class="loader"></div>
     </div>
     <!-- ======= Mobile nav toggle button ======= -->
-    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> -->
 
     <!-- ======= Header ======= -->
     <header id="header">
+
         <div class="d-flex flex-column">
 
             <div class="profile">
@@ -79,21 +81,57 @@
             <!-- .nav-menu -->
         </div>
 
+
     </header>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
-            <p class="welcome">Bienvenue dans mon portfolio</p>
-            <h1>Otmane Tahri</h1>
-            <p>Je suis <span class="typed" data-typed-items="Développeur  , Freelancer"></span></p>
+            <div class="row">
+                <div class="col">
+                    <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle image-circel">
+                    <div class="social-links mt-3 text-center">
+                        <a href="https://web.facebook.com/profile.php?id=100009301717423" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/otmane_tahiri_0/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/otmane-tahri-a2a9741a2/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/otmanet" class="linkedin" target="_blank"><i class='bx bxl-github'></i></a>
+                        <div id="tooltip">
+                            <a class="linkedin" target="_blank">
+                                <i class='bx bx-phone'> </i>
+                                <span class="tooltiptext">+212671707011</span>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <p class="welcome">Bienvenue dans mon portfolio</p>
+                        <h1 class="text-light h-style"><a href="https://otmanet.github.io/OtmaneTahri-Portfolio/">Otmane Tahri</a></h1>
+                        <p>Je suis <span class="typed" data-typed-items="Développeur  , Freelancer"></span> </p>
+                        <a href="assets/cv_otmane.pdf" id="btnDownload" target="_blank"><i class='bx bxs-file-pdf'></i><span>Télécharger CV</span></a>
+                     </div>
+            </div>
+
+
         </div>
     </section>
     <!-- End Hero -->
 
     <main id="main">
-
+        <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a href="#hero" class="nav-item nav-link active"><i class="bx bx-home"></i> <span>Home</span></a>
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+              </div>
+            </div>
+          </nav>
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container">
