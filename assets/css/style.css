@@ -241,8 +241,11 @@ h2 {
 #hero {
     width: 100%;
     height: 100vh;
-    background-color: #393f4d;
+    /* background-color: #393f4d; */
+
+    background-image: url('assets//img//profile-img.jpg');
     background-size: cover;
+    background-color: #cccccc;
 }
 
 #hero .welcome {
@@ -276,7 +279,8 @@ h2 {
 
 #hero:before {
     content: "";
-    background-color: #393f4d;
+    /* background-color: #393f4d; */
+    background-image: url('assets/img/profile-img.jpg');
     position: absolute;
     bottom: 0;
     top: 0;
@@ -289,6 +293,7 @@ h2 {
     position: relative;
     z-index: 2;
     min-width: 300px;
+
 }
 
 #hero h1 {
