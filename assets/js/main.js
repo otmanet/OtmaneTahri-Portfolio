@@ -266,3 +266,26 @@ const func1 = (function () {
     });
   });
 })();
+
+$(document).ready(function () {
+  // Add click event listener to all navigation links
+  $(".nav-item.nav-link").on("click", function (event) {
+    // Prevent the default link behavior
+    event.preventDefault();
+
+    // Remove the "active" class from all navigation items
+    $(".nav-item.nav-link").removeClass("active");
+
+    // Add the "active" class to the clicked link
+    $(this).addClass("active");
+
+    // Scroll to the section related to the clicked link
+    var target = $(this).attr("href");
+    $("html, body").animate(
+      {
+        scrollTop: $(target).offset().top,
+      },
+      800
+    ); // You can adjust the scrolling speed here
+  });
+});
