@@ -274,10 +274,10 @@ $(document).ready(function () {
     event.preventDefault();
 
     // Remove the "active" class from all navigation items
-    $(".nav-item.nav-link").removeClass("active");
+    $(".nav-item.nav-link").removeClass("active back");
 
     // Add the "active" class to the clicked link
-    $(this).addClass("active");
+    $(this).addClass("active back");
 
     // Scroll to the section related to the clicked link
     var target = $(this).attr("href");
