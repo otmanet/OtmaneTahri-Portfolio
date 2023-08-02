@@ -136,7 +136,7 @@ h2 {
 }
 
  .social-links a:hover {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     color: #fff;
     text-decoration: none;
 }
@@ -315,7 +315,7 @@ h2 {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid rgb(348, 100, 81);
+    border-bottom: 3px solid #ae77de;
 }
 
 
@@ -801,11 +801,11 @@ section {
 .img-fluid{
     border-radius: 1.2rem;
 }
-.navbar-expand-lg{
+/* .navbar-expand-lg{
     background-color: rgb(348, 100, 81);
     color: #fff !important;
-}
-.back span{
+} */
+/* .back span{
     color: #fff;
 }
 .back ::before{
@@ -813,7 +813,7 @@ section {
     color:rgb(348, 100, 81) ;
     border-radius: 1.5rem;
     border-bottom: 1px  #fff;
-}
+} */
 
 
 
