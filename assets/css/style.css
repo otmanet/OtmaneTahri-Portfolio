@@ -1,14 +1,14 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 #main {
-    background-color: #393f4d;
+    background-color: #fff;
 }
 
 #skills {
-    background-color: #393f4d;
+    background-color: #fff;
 }
 
 a {
@@ -55,7 +55,7 @@ h2 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -69,7 +69,7 @@ h2 {
 }
 
 .back-to-top:hover {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     color: #fff;
 }
 
@@ -88,7 +88,7 @@ h2 {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     overflow-y: auto;
     display: none;
 }
@@ -124,7 +124,7 @@ h2 {
     font-size: 18px;
     display: inline-block;
     background: #212431;
-    color: #fff;
+    color: #fff !important;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -218,7 +218,7 @@ h2 {
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
-    background-color: rgb(348, 100, 81);
+    background-color: #ae77de;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -356,7 +356,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: rgb(348, 100, 81);
+    color: #ae77de;
 }
 
 .section-title h2::after {
@@ -365,7 +365,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     bottom: 0;
     left: 0;
 }
@@ -382,7 +382,7 @@ section {
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: rgb(348, 100, 81);
+    color: #ae77de;
 }
 
 .about .content ul {
@@ -403,7 +403,7 @@ section {
 .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #fff;
+    color: #ae8acd;
     line-height: 0;
 }
 
@@ -430,7 +430,7 @@ section {
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #fff;
+    color: #ae8acd;
 }
 
 .skills .progress .skill .val {
@@ -448,7 +448,7 @@ section {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: rgb(348, 100, 81);
+    background-color: #ae77de;
     border-radius: 1.5rem;
 }
 
@@ -462,14 +462,15 @@ section {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #ae8acd;
 }
 
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid rgb(348, 100, 81);
+    border-left: 2px solid #ae77de;
     position: relative;
+
 }
 
 .resume .resume-item h4 {
@@ -478,17 +479,18 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
     font-size: 16px;
-    background: #000000;
+    background: #ae8acd;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+    color:#fff
 }
 
 .resume .resume-item ul {
@@ -512,7 +514,7 @@ section {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid rgb(348, 100, 81);
+    border: 2px solid #ae77de;
 }
 
 
@@ -531,10 +533,10 @@ section {
     justify-content: center;
     width: 54px;
     height: 54px;
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid rgb(348, 100, 81);
+    border: 1px solid #ae77de;
 }
 
 .services .icon i {
@@ -548,7 +550,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-    color: rgb(348, 100, 81);
+    color: #ae77de;
 }
 
 .services .title {
@@ -563,7 +565,7 @@ section {
 }
 
 .services .title a:hover {
-    color: rgb(348, 100, 81);
+    color: #ae77de;
 }
 
 .services .description {
@@ -590,7 +592,7 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: rgb(348, 100, 81);
+    color: #ae77de;
     float: left;
     width: 44px;
     height: 44px;
@@ -614,7 +616,7 @@ section {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: rgb(348, 100, 81);
+    color: #ae77de;
 }
 
 .contact .info .email p {
@@ -641,14 +643,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     color: #fff;
 }
 
@@ -737,7 +739,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -746,7 +748,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: rgb(348, 100, 81);
+    background: #ae77de;
 }
 
 @-webkit-keyframes animate-loading {
@@ -802,18 +804,18 @@ section {
     border-radius: 1.2rem;
 }
 /* .navbar-expand-lg{
-    background-color: rgb(348, 100, 81);
+    background-color: #ae77de;
     color: #fff !important;
-} */
-/* .back span{
+}
+.back span{
     color: #fff;
 }
 .back ::before{
     background-color: #fff;
-    color:rgb(348, 100, 81) ;
+    color:#ae77de ;
     border-radius: 1.5rem;
-    border-bottom: 1px  #fff;
-} */
+    border-bottom: 1px  #fff; */
+/* } */
 
 
 

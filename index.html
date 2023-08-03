@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/styleLoadingPage.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/styleLoadingPage.css" rel="stylesheet" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body style=" background-image: url('assets/img/971.jpg');">
     <main>
-        <div class="preloader">
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-        </div>
-        <div class="status"><img src="assets/img/iconDev.png" width="120px" height="120px" alt="" srcset="">Loading<span class="status__dot">.</span><span class="status__dot">.</span><span class="status__dot">.</span></div>
+      <div class="preloader">
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+      </div>
+      <div class="status">
+        <img
+          src="assets/img/iconDev.png"
+          width="120px"
+          height="120px"
+          alt=""
+          srcset=""
+        />Loading<span class="status__dot">.</span
+        ><span class="status__dot">.</span><span class="status__dot">.</span>
+      </div>
     </main>
     <script>
-        function redirectToNewPage() {
-            window.location = "PageHome.html";
-        }
-        setTimeout(redirectToNewPage, 5000);
+      function redirectToNewPage() {
+        window.location = "PageHome.html";
+      }
+      setTimeout(redirectToNewPage, 5000);
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYMGJQDYTW"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZYMGJQDYTW"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-ZYMGJQDYTW');
+      gtag("config", "G-ZYMGJQDYTW");
     </script>
-</body>
-
+  </body>
 </html>
