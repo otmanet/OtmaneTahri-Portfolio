@@ -864,3 +864,34 @@ section {
   }
   
 
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items vertically */
+        background-color: rgba(212, 215, 222, 0.95); /* Change background color */
+        position: fixed;
+        top: 0;
+        left: -100%; /* Hide the navbar initially */
+        width: 70%; /* Adjust width */
+        height: 100%;
+        transition: left 0.3s ease-in-out;
+    }
+    
+    .navbar .nav.active {
+        left: 0; /* Show the navbar */
+    }
+    
+    .nav li {
+        width: 100%; /* Full width */
+        text-align: center; /* Center text */
+        margin: 15px 0; /* Add spacing */
+    }
+    
+    .logo {
+        flex: 0; /* Remove flex growth */
+        text-align: center; /* Center text */
+        width: 100%; /* Full width */
+        margin-bottom: 20px; /* Add spacing */
+    }
+}
