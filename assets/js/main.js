@@ -267,25 +267,35 @@ const func1 = (function () {
   });
 })();
 
-// $(document).ready(function () {
-//   // Add click event listener to all navigation links
-//   $(".nav-item.nav-link").on("click", function (event) {
-//     // Prevent the default link behavior
-//     event.preventDefault();
+$(document).ready(function () {
+  // Add click event listener to all navigation links
+  $(".nav-item.nav-link").on("click", function (event) {
+    // Prevent the default link behavior
+    event.preventDefault();
 
-//     // Remove the "active" class from all navigation items
-//     $(".nav-item.nav-link").removeClass("active back");
+    // Remove the "active" class from all navigation items
+    $(".nav-item.nav-link").removeClass("active back");
 
-//     // Add the "active" class to the clicked link
-//     $(this).addClass("active back");
+    // Add the "active" class to the clicked link
+    $(this).addClass("active back");
 
-//     // Scroll to the section related to the clicked link
-//     var target = $(this).attr("href");
-//     $("html, body").animate(
-//       {
-//         scrollTop: $(target).offset().top,
-//       },
-//       800
-//     ); // You can adjust the scrolling speed here
+    // Scroll to the section related to the clicked link
+    // Get the target section ID from the href attribute
+    var target = $(this).attr("href");
+
+    // Navigate to the target section using the ID
+    window.location.href = target;
+  });
+});
+// const navLinks = document.querySelectorAll(".navbar li a");
+// navLinks.forEach((link) => {
+//   link.addEventListener("click", function (event) {
+//     // Remove the active class from all links
+//     navLinks.forEach((navLink) => {
+//       navLink.parentElement.classList.remove("active back");
+//     });
+
+//     // Add the active class to the clicked link's parent
+//     this.parentElement.classList.add("active back");
 //   });
 // });

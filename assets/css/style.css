@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=JetBrains+Mono:ital,wght@0,100;0,200;1,100&display=swap');
 body {
     font-family: "Open Sans", sans-serif;
     color: #000;
@@ -79,18 +80,18 @@ h2 {
 }
 
 #header {
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
-    width: 300px;
+    bottom: 0; */
+    /* width: 300px; */
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.5s;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     background: #ae77de;
     overflow-y: auto;
-    display: none;
+    /* display: none; */
 }
 
 .image-circel {
@@ -806,16 +807,60 @@ section {
 /* .navbar-expand-lg{
     background-color: #ae77de;
     color: #fff !important;
-}
-.back span{
-    color: #fff;
+} */
+.back {
+    color: #ae8acd;
+    background-color: #fff;
+     border-radius: 1.5rem;
 }
 .back ::before{
     background-color: #fff;
     color:#ae77de ;
     border-radius: 1.5rem;
-    border-bottom: 1px  #fff; */
-/* } */
+    border-bottom: 1px  #fff;
+}
 
+/* new style navbar  */
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 99;
+  }
+  .navbar .nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+  }
+  .logo {
+    flex: 1 1 auto;
+    /* margin-left: 10%; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ae8acd;
+  }
 
+ #header .navbar .nav .nav-item .nav-link {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #header .navbar .nav .nav-item .nav-link:hover {
+    color: #000;
+  }
+  .myName{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
 
