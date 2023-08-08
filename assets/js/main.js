@@ -287,6 +287,31 @@ $(document).ready(function () {
     window.location.href = target;
   });
 });
+
+// Add an event listener for the 'scroll' event on the window
+window.addEventListener("scroll", function () {
+  const sections = document.querySelectorAll("section"); // Get all sections
+  const navbarLinks = document.querySelectorAll(".nav-item.nav-link"); // Get all navbar links
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if (window.scrollY >= sectionTop - sectionHeight / 2) {
+      const sectionId = section.getAttribute("id");
+
+      // Remove 'active' class from all navbar links
+      navbarLinks.forEach((link) => {
+        link.classList.remove("active back");
+      });
+
+      // Add 'active' class to the corresponding navbar link
+      const activeLink = document.querySelector(`.nav-item.nav-link`);
+      activeLink.classList.add("active back");
+    }
+  });
+});
+
 // const navLinks = document.querySelectorAll(".navbar li a");
 // navLinks.forEach((link) => {
 //   link.addEventListener("click", function (event) {
