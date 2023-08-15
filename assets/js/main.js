@@ -301,17 +301,20 @@ window.addEventListener("scroll", function () {
       const sectionId = section.getAttribute("id");
 
       // Remove 'active' class from all navbar links
-      navbarLinks.forEach((link) => {
-        link.classList.remove("active back");
-      });
+      // navbarLinks.forEach((link) => {
+      //   link.classList.remove("active back");
+      // });
 
       // Add 'active' class to the corresponding navbar link
       const activeLink = document.querySelector(`.nav-item.nav-link`);
-      activeLink.classList.add("active back");
+      // activeLink.classList.add("active back");
     }
   });
 });
 
+/***************************  spy scroll ************************************/
+
+/**************************************************************************/
 // const navLinks = document.querySelectorAll(".navbar li a");
 // navLinks.forEach((link) => {
 //   link.addEventListener("click", function (event) {

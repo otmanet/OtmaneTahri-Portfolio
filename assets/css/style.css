@@ -808,11 +808,17 @@ section {
     background-color: #ae77de;
     color: #fff !important;
 } */
+
+.nav-link:hover{
+    color: #fff !important;
+    background-color: #ae8acd;
+    border-radius: 1.5rem;
+}
+
 .back {
     color: #fff !important;
     background-color: #ae8acd;
      border-radius: 1.5rem;
-
 }
 .back ::before{
     background-color: #fff;
@@ -825,8 +831,8 @@ section {
 .navbar {
     position: fixed;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #d4d7de;
@@ -868,13 +874,14 @@ section {
 /* Media query for responsiveness */
 
 @media (max-width: 990px) {
-    .collapse.show {
+    /* .collapse.show {
         background-color: #d4d7de;
-    }
+    } */
     .back {
-
          width: 190px;
-    
+    }
+    .nav-link:hover{
+        width: 190px;
     }
 
 }
