@@ -279,7 +279,7 @@ h2 {
 /*  Checkout my other pens on  https://codepen.io/grohit/  */
 
 #hero:before {
-    content: "";
+    /* content: ""; */
     /* background-color: #393f4d; */
     background-image: url('assets/img/profile-img.jpg');
     position: absolute;
@@ -626,6 +626,7 @@ section {
 
 .contact .info .social-links {
     padding-left: 60px;
+    /* z-index: 99; */
 }
 
 .contact .info .social-links a {
