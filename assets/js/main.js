@@ -327,3 +327,14 @@ window.addEventListener("scroll", function () {
 //     this.parentElement.classList.add("active back");
 //   });
 // });
+// This code changes the color of the title to another color when hovering over the description in the service.
+$(document).ready(function () {
+  $(".description").hover(
+    function () {
+      $(this).siblings(".title").find("a").css("color", "#ae77de");
+    },
+    function () {
+      $(this).siblings(".title").find("a").css("color", ""); // Reset the color when not hovering
+    }
+  );
+});

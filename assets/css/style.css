@@ -568,7 +568,10 @@ section {
 .services .title a:hover {
     color: #ae77de;
 }
-
+.services .description:hover + .title a {
+    /* Your styles for the .title class when hovering .description */
+    color: #ae77de;
+}
 .services .description {
     margin-left: 80px;
     line-height: 24px;
@@ -891,4 +894,7 @@ section {
   background-color: #fbe0fa30;
   border: 1px solid #fc8cdd2e;
   border-radius: 0.5rem;
+  }
+  .contract-raduis{
+    border-radius: 1.5rem;
   }
