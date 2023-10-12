@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/styleLoadingPage.css" rel="stylesheet" />
+    <title>OTMANE TAHRI</title>
+    <!-- open graph  -->
+    <!-- open graph  -->
+    <meta property="og:title" content="Otmane Tahri Software Engineer"  />
+    <meta property="og:description" content="Graduate of the National School of Applied Sciences in Khouribga, majoring in Computer Systems Analysis and Design..." />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://otmanet.github.io/OtmaneTahri-Portfolio/PageHome.html" />
+    <meta property="og:image" content="https://otmanet.github.io/OtmaneTahri-Portfolio/assets/img/favicon.png" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/styleLoadingPage.css" rel="stylesheet">
-    <title>Document</title>
-</head>
+  <body style="
+      background-image: url('assets/img/dev1.jpg');
+    background-repeat: no-repeat;
 
-<body>
+
+    background-size: 70%; ">
     <main>
-        <div class="preloader">
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-            <div class="preloader__square"></div>
-        </div>
-        <div class="status"><img src="assets/img/iconDev.png" width="120px" height="120px" alt="" srcset="">Loading<span class="status__dot">.</span><span class="status__dot">.</span><span class="status__dot">.</span></div>
+      <div class="preloader">
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+        <div class="preloader__square"></div>
+      </div>
+      <div class="status">
+        <img
+          src="assets/img/iconDev.png"
+          width="120px"
+          height="120px"
+          alt=""
+          srcset=""
+        />Loading<span class="status__dot">.</span
+        ><span class="status__dot">.</span><span class="status__dot">.</span>
+      </div>
     </main>
     <script>
-        function redirectToNewPage() {
-            window.location = "PageHome.html";
-        }
-        setTimeout(redirectToNewPage, 5000);
+      function redirectToNewPage() {
+        window.location = "PageHome.html";
+      }
+      setTimeout(redirectToNewPage, 3000);
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYMGJQDYTW"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZYMGJQDYTW"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-ZYMGJQDYTW');
+      gtag("config", "G-ZYMGJQDYTW");
     </script>
-</body>
-
+  </body>
 </html>
